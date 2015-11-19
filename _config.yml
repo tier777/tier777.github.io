@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://tier777.github.io
+title: Mess
+tagline: android ios developer
+description: My awesome blog
+paginate: 5
