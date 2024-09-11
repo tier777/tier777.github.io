@@ -2,6 +2,7 @@ html {
     color: #333333;
     background-color: #FECB40;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-underline-position: under;
 }
 
 body {
@@ -68,17 +69,13 @@ p {
     font-weight: 274;
     background-color: #333333;
     padding: 16px 64px 16px 64px;
-}
-
-.about a:link,
-a:visited,
-a:active {
     color: #FFFEFC;
 }
 
-.about a:hover {
-    /* color: #FECB40; */
-    text-decoration: underline;
+.button_container a:link,
+a:visited,
+a:active {
+    color: #FFFEFC;
 }
 
 a:visited,
@@ -89,5 +86,6 @@ a:active {
 }
 
 a:hover {
-    color: #FFFEFC;
+    text-decoration: underline;
+    /* color: #FFFEFC; */
 }
