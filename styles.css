@@ -89,8 +89,8 @@ p {
 }
 
 .button_container a:link,
-a:visited,
-a:active {
+.button_container a:visited,
+.button_container a:active {
     color: #FFFEFC;
 }
 
@@ -103,5 +103,4 @@ a:active {
 
 a:hover {
     text-decoration: underline;
-    /* color: #FFFEFC; */
 }
